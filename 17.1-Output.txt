@@ -1,0 +1,109 @@
+"I:\CIS-2532\week 12\pythonProject1\.venv\Scripts\python.exe" "I:\CIS-2532\week 12\pythonProject1\17.1 EX.py" 
+Enter the path of the ch17 directory : I:\CIS-2532\week 12\ch17
+
+**********************************
+
+Authors' Last Names (Descending):
+Wald
+Quirk
+Deitel
+Deitel
+Deitel
+
+**********************************
+
+Book Titles (Ascending):
+Android 6 for Programmers
+Android How to Program
+C How to Program
+C++ How to Program
+Internet & WWW How to Program
+Intro to Python for CS and DS
+Java How to Program
+Visual Basic 2012 How to Program
+Visual C# How to Program
+Visual C++ How to Program
+
+**********************************
+
+Books for a Specific Author (Alphabetically by Title):
+Enter the Author ID to display their books: 1234
+No books found for this author ID.
+
+**********************************
+
+Inserting a New Author...
+Enter the author's first name: Omar
+Enter the author's last name: Elbeltagi
+New author added successfully.
+
+**********************************
+
+Inserting a New Title and Linking to Author...
+Enter the new book title: A Song Of Ice and Fire
+Enter the book's copyright year: 2024
+Enter the new ISBN (must be unique): 12345
+Enter the book edition (default is 1): 1
+Available Authors:
+ID: 1, Name: Paul Deitel
+ID: 2, Name: Harvey Deitel
+ID: 3, Name: Abbey Deitel
+ID: 4, Name: Dan Quirk
+ID: 5, Name: Alexander Wald
+ID: 6, Name: Omar Elbeltagi
+Enter the Author ID to link this book to: 12334
+New book title and author_ISBN link added successfully.
+
+**********************************
+
+Updated Authors Table:
+(1, 'Paul', 'Deitel')
+(2, 'Harvey', 'Deitel')
+(3, 'Abbey', 'Deitel')
+(4, 'Dan', 'Quirk')
+(5, 'Alexander', 'Wald')
+(6, 'Omar', 'Elbeltagi')
+
+Updated Titles Table:
+('0135404673', 'Intro to Python for CS and DS', 1, '2020')
+('0132151006', 'Internet & WWW How to Program', 5, '2012')
+('0134743350', 'Java How to Program', 11, '2018')
+('0133976890', 'C How to Program', 8, '2016')
+('0133406954', 'Visual Basic 2012 How to Program', 6, '2014')
+('0134601548', 'Visual C# How to Program', 6, '2017')
+('0136151574', 'Visual C++ How to Program', 2, '2008')
+('0134448235', 'C++ How to Program', 10, '2017')
+('0134444302', 'Android How to Program', 3, '2017')
+('0134289366', 'Android 6 for Programmers', 3, '2016')
+('12345', 'A Song Of Ice and Fire', 1, '2024')
+
+Updated author_ISBN Table:
+(1, '0134289366')
+(2, '0134289366')
+(5, '0134289366')
+(1, '0135404673')
+(2, '0135404673')
+(1, '0132151006')
+(2, '0132151006')
+(3, '0132151006')
+(1, '0134743350')
+(2, '0134743350')
+(1, '0133976890')
+(2, '0133976890')
+(1, '0133406954')
+(2, '0133406954')
+(3, '0133406954')
+(1, '0134601548')
+(2, '0134601548')
+(1, '0136151574')
+(2, '0136151574')
+(4, '0136151574')
+(1, '0134448235')
+(2, '0134448235')
+(1, '0134444302')
+(2, '0134444302')
+(12334, '12345')
+
+Database connection closed.
+
+Process finished with exit code 0
